@@ -9,6 +9,6 @@ public class HomeController {
 	@RequestMapping("home")
 	public String home() {
 		System.out.println("Welcome to TaskApp Web Application");
-		return "home.jsp";
+		return "adduser.jsp";
 	}
 }
